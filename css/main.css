@@ -2,55 +2,131 @@ a {
   color: #707020;
   text-decoration: none;
 }
-
+ 
 .body {
   display: flex;
   flex-direction: column;
-  margin: 24px;
-  padding: 48px;
-}
-
-.border {
-  border-bottom: 1px solid darkgray;
+  font-family: 'Cookie', cursive;
+  margin: 6px;
   padding: 12px;
 }
 
-.footer {
-  background-color: lavender;
-  border-top: black 2px solid;
-  display: flex;
-  justify-content: center;
+.text {
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
+.title {
+  font-family: 'Cookie', cursive;
+  border-bottom: 1px solid darkgray;
+  padding: 6px;
+}
+
+.background-image {
+  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.background-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+ /* navigation bar */
+.button {
+  background-color: white;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 6px;
+  color: black;
+  font-size: 24px;
+  padding: 6px 12px;
+}
+.button:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.button:focus {
+  background: gray;
+}
+ 
 .header {
-  background-color: lavender;
   border-bottom: black 2px solid;
   color: black;
   display: flex;
   justify-content: space-between;
-  padding: 24px;
+  padding: 18px;
 }
-
+ 
 .header-logo {
-  text-emphasis-color: black;
+  background-color: lavender;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 16px;
 }
 
+.image-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.image-label {
+  background-color: cyan;
+  bottom: 12px;
+  color: white;
+  font-size: 24px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ 
+.portfolio-grid img {
+  margin: 12px;
+}
+ 
 .portfolio-image {
   float: left;
   height: 150px;
   padding: 12px;
   width: 150px;
 }
-
+ 
 .section-content {
   background-color: rgb(238, 236, 236);
   margin: 48px;
   max-width: 800px;
   padding: 18px;
 }
-
+ 
 .section-main {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   max-width: 960 px;
   justify-content: center;
 }
+ 
+
