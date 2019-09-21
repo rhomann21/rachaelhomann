@@ -90,7 +90,13 @@ a {
 .button:focus {
   background: gray;
 }
- 
+
+.contact-icons {
+  display: absolute;
+  justify-content: center;
+  align-content: flex-end;
+}
+
 .image-wrapper {
   display: inline-block;
   position: relative;
@@ -117,6 +123,10 @@ a {
   width: 86px;
 }
 
+.nav-buttons {
+  margin: 48px;
+}
+
 .portfolio-grid {
   display: flex;
   flex-wrap: wrap;
@@ -129,20 +139,7 @@ a {
   width: 150px;
   border:2px solid black;
 }
- 
-.section-content {
-  background-color: rgb(238, 236, 236);
-  margin: 48px;
-  max-width: 800px;
-  padding: 18px;
-}
- 
-.section-main {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  max-width: 960 px;
-  justify-content: center;
-}
+
 
 .text-box {
   font-family: Arial, Helvetica, sans-serif;
@@ -152,4 +149,9 @@ a {
   color: black;
   font-size: 16px;
 
+}
+
+.twitter-logo {
+  height: 75px;
+  width: 100px;
 }
