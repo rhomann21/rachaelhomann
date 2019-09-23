@@ -1,3 +1,8 @@
+/* Main */
+a {
+  text-decoration: none;
+}
+
 .body {
   background-attachment: fixed;
   background-color: #cccccc;
@@ -10,8 +15,11 @@
   padding: 12px;
 }
 
-.text {
+/*Home page */
+
+.h1-text {
   color: white;
+  font-size: 30px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -19,6 +27,24 @@
      1px 1px 0 #000;
 }
 
+.h2-text {
+  color: white;
+  font-size: 100px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+.h3-text {
+  color: white;
+  font-size: 40px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
 
 .background-text {
   color: white;
@@ -29,7 +55,7 @@
   transform: translate(-50%, -50%);
 }
 
- /* navigation bar */
+ /* navigation */
 .button {
   background-color: white;
   border-color: black;
@@ -39,6 +65,7 @@
   font-size: 24px;
   padding: 6px 12px;
 }
+
 .button:hover {
   background-color: black;
   border-color: white;
@@ -49,39 +76,21 @@
   background: gray;
 }
 
-.contact-icons {
-  align-content: flex-end;
-  display: absolute;
-  justify-content: center;
-}
-
-.image {
-  border:2px solid black;
-  margin: 6px;
-}
-
-.mail-logo {
-  height: 86px;
-  width: 86px;
-}
-
 .nav-buttons {
   margin: 48px;
 }
 
-.portfolio-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-  
-.portfolio-image {
-  border:2px solid black;
-  float: center;
-  height: 150px;
-  width: 150px;
-}
+/*About Page*/
 
+.h1-about-text {
+  color: white;
+  font-size: 60px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
 
 .text-box {
   background-color: #ffffff;
@@ -93,7 +102,66 @@
   padding: 6px;
 }
 
+.about-image {
+  border: 2px solid black;
+  margin: 6px;
+}
+
+/*Contact Page*/
+
+.contact-icons {
+  align-content: flex-end;
+  display: absolute;
+  justify-content: center;
+}
+
+.h1-contact-text {
+  color: white;
+  font-size: 65px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.linkedin-logo {
+  height: 75px;
+  width: 100px;
+}
+
 .twitter-logo {
   height: 75px;
   width: 100px;
+}
+
+.mail-logo {
+  height: 86px;
+  width: 86px;
+}
+
+/*Portfolio page*/
+.github-image {
+  border: 2px solid black;
+  height: 100px;
+  margin: 6px;
+  width: 100px;
+}
+
+.h1-portfolio-text {
+  color: white;
+  font-size: 70px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.image {
+  border: 2px solid black;
+  height: 100px;
+  margin: 6px;
+  width: 100px;
+
 }
