@@ -15,11 +15,13 @@ a {
   padding: 12px;
 }
 
+
+
 /*Home page */
 
 .h1-text {
   color: white;
-  font-size: 30px;
+  font-size: 9vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -29,7 +31,7 @@ a {
 
 .h2-text {
   color: white;
-  font-size: 100px;
+  font-size: 13vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -38,7 +40,7 @@ a {
 }
 .h3-text {
   color: white;
-  font-size: 40px;
+  font-size: 6vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -84,22 +86,23 @@ a {
 
 .h1-about-text {
   color: white;
-  font-size: 60px;
+  font-size: 10vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+  margin: 2vh
 }
 
 .text-box {
   background-color: #ffffff;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  margin: 30px;
+  font-size: 2vh;
+  margin: 1vh;
   opacity: 0.6;
-  padding: 6px;
+  padding: 1vh;
 }
 
 .about-image {
@@ -117,7 +120,7 @@ a {
 
 .h1-contact-text {
   color: white;
-  font-size: 65px;
+  font-size: 12vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -126,31 +129,34 @@ a {
 }
 
 .linkedin-logo {
-  height: 75px;
-  width: 100px;
+  height: 11vh;
+  width: 11vh;
+  padding: 2vh;
 }
 
 .twitter-logo {
-  height: 75px;
-  width: 100px;
+  height: 11vh;
+  width: 11vh;
+  padding: 2vh;
 }
 
 .mail-logo {
-  height: 86px;
-  width: 86px;
+  height: 11vh;
+  width: 11vh;
+  padding: 2vh;
 }
 
 /*Portfolio page*/
 .github-image {
   border: 2px solid black;
-  height: 100px;
-  margin: 6px;
-  width: 100px;
+  height: 14vh;
+  margin: 2vh;
+  width: 14vh;
 }
 
 .h1-portfolio-text {
   color: white;
-  font-size: 70px;
+  font-size: 10vh;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -160,8 +166,15 @@ a {
 
 .image {
   border: 2px solid black;
-  height: 100px;
-  margin: 6px;
-  width: 100px;
+  height: 14vh;
+  margin: 2vh;
+  width: 14vh;
 
+}
+
+@media (max-width: 768px) {
+  .h1-about-text {
+    position: absolute;
+    
+  }
 }
