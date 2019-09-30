@@ -21,7 +21,7 @@ a {
 
 .h1-text {
   color: white;
-  font-size: 9vh;
+  font-size: 30px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -31,7 +31,7 @@ a {
 
 .h2-text {
   color: white;
-  font-size: 13vh;
+  font-size: 100px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -40,7 +40,7 @@ a {
 }
 .h3-text {
   color: white;
-  font-size: 6vh;
+  font-size: 40px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -53,7 +53,7 @@ a {
   left: 50%;
   position: absolute;
   text-align: center;
-  top: 50%;
+  margin-top: 20%;
   transform: translate(-50%, -50%);
 }
 
@@ -86,20 +86,20 @@ a {
 
 .h1-about-text {
   color: white;
-  font-size: 10vh;
+  font-size: 60px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
-  margin: 2vh
+  margin-top: 2vh
 }
 
 .text-box {
   background-color: #ffffff;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2vh;
+  font-size: 16px;
   margin: 1vh;
   opacity: 0.6;
   padding: 1vh;
@@ -120,7 +120,7 @@ a {
 
 .h1-contact-text {
   color: white;
-  font-size: 12vh;
+  font-size: 60px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -156,7 +156,7 @@ a {
 
 .h1-portfolio-text {
   color: white;
-  font-size: 10vh;
+  font-size: 60px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -172,9 +172,8 @@ a {
 
 }
 
-@media (max-width: 768px) {
-  .h1-about-text {
-    position: absolute;
-    
+@media (max-width: 1060px) {
+  .body {
+    margin-top: 25vh;
   }
 }
