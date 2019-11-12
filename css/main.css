@@ -4,12 +4,9 @@ a {
 }
 
 .body {
-  background-attachment: fixed;
   background-color: #cccccc;
-  background-image: url("https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80"); 
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, rgba(83, 212, 191), rgba(36, 150, 132));
   font-family: 'Satisfy', cursive;
   margin: 6px;
   padding: 12px;
@@ -27,6 +24,7 @@ a {
     1px -1px 0 #000,
     -1px 1px 0 #000,
      1px 1px 0 #000;
+  justify-content: center;
 }
 
 .h2-text {
@@ -41,6 +39,16 @@ a {
 .h3-text {
   color: white;
   font-size: 40px;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+.h4-text {
+  color: white;
+  font-size: 25px;
   text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -170,6 +178,10 @@ a {
   margin: 2vh;
   width: 14vh;
 
+}
+
+.resImage {
+  margin: 15px;
 }
 
 @media (max-width: 1060px) {
